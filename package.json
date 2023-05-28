@@ -1,0 +1,27 @@
+{
+  "name": "playwrightjest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "report": "npx playwright show-report",
+    "test:baseline": "export TEST_MODE='baseline' && npx jest tests/screenshot.test.ts",
+    "test:compare": "export TEST_MODE='compare' && npx jest tests/screenshot.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "@types/jest-image-snapshot": "^4.3.1",
+    "@playwright/test": "^1.34.3",
+    "expect-playwright": "^0.8.0",
+    "jest": "^27.0.1",
+    "prettier": "^2.3.2",
+    "ts-jest": "^27.0.5",
+    "jest-image-snapshot": "^4.5.1",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
