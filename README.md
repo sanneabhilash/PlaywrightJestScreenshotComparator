@@ -25,3 +25,9 @@ You can configure the screenshot comparision behavior based on following:
 ## Sample diff output:
 - `/baseline/__diff_output__/pages_loginPage_fails.png`
 - On successful comparision there will no diff output file generated.
+
+
+# References:
+- https://github.com/americanexpress/jest-image-snapshot
+- https://github.com/playwright-community/jest-playwright
+- https://www.carlrippon.com/getting-started-with-playwright/
