@@ -26,7 +26,7 @@ describe('screenshot comparision test demo for full page', () => {
   });
 
 
-    test(`Login Page Screenshot [${config.TEST_MODE}]`, async () => {
+    test(`Login Page Screenshot fails [${config.TEST_MODE}]`, async () => {
       await loginPage.navigate();
       console.log(page.url());
       await page.waitForLoadState();
@@ -41,7 +41,7 @@ describe('screenshot comparision test demo for full page', () => {
       console.log(`Snapshot captured for loginPage`);
     });
 
-    test(`Login Page Screenshot [${config.TEST_MODE}]`, async () => {
+    test(`Login Page Screenshot success [${config.TEST_MODE}]`, async () => {
       await loginPage.navigate();
       console.log(page.url());
       await page.waitForLoadState();
